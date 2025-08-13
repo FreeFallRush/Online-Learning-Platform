@@ -110,6 +110,12 @@ ul {
   gap: 20px;
 }
 
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-page {
   padding: 3rem 2rem;
   flex: 1;

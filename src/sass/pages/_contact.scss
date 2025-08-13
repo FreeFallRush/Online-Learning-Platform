@@ -1,5 +1,13 @@
 @use "../abstracts/colors" as c;
 
+// Footer fix
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-page {
   padding: 3rem 2rem;
   flex: 1;
