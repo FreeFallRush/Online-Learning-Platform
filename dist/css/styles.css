@@ -80,6 +80,32 @@ ul {
   margin-bottom: 50px;
 }
 
+.enroll-reasons {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fddbf0;
+}
+.enroll-reasons .enroll-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.enroll-reasons .enroll-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.enroll-reasons h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 5px rgb(71, 71, 71);
+  margin-bottom: 20px;
+}
+.enroll-reasons .reason-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 nav {
   background-color: #3498db;
   padding: 10px;
