@@ -11,6 +11,13 @@
   align-items: center;
 }
 
+@mixin flex-center-align($direction, $justify, $align, $content) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $content;
+  align-items: $align;
+}
+
 @mixin responsive($breakpoint) {
   @media screen and (max-width: $breakpoint) {
     @content;
