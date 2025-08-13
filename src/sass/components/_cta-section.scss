@@ -1,3 +1,18 @@
 @use "../abstracts/mixins" as m;
 @use "../abstracts/colors" as c;
 @use "../abstracts/variables" as v;
+
+.cta-section {
+  @include m.flex-center-align(row, space-between, center, space-around);
+
+  color: c.$color-black;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+@include m.responsive(v.$breakpoint-md) {
+  .cta-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}

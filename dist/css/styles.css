@@ -259,4 +259,21 @@ button:hover {
   background: #2e7aac;
 }
 
+.cta-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #000;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cta-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
