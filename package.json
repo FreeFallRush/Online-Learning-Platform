@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Appendix Online Learning Platform - Capstone project for EPAM Front-End Training",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "sass src/sass:dist/css",
-    "watch:sass": "sass --watch src/sass:dist/css"
+    "watch:sass": "sass --watch src/sass:dist/css",
+    "lint": "eslint src/js/**/*.js && stylelint 'src/sass/**/*.{css,scss}'"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,12 @@
   "homepage": "https://github.com/FreeFallRush/Online-Learning-Platform#readme",
   "dependencies": {
     "sass": "^1.90.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard-scss": "^15.0.1"
   }
 }
