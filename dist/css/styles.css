@@ -110,6 +110,36 @@ ul {
   gap: 20px;
 }
 
+.contact-page {
+  padding: 3rem 2rem;
+  flex: 1;
+}
+.contact-page .contact-info {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+.contact-page .contact-info h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.contact-page .contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.contact-page .contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2.5rem;
+}
+.contact-page .contact-info ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.contact-page .contact-info ul li strong {
+  color: #2e7aac;
+}
+
 nav {
   background-color: #3498db;
   padding: 10px;
