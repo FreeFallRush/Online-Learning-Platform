@@ -3,7 +3,8 @@
 @use "../abstracts/colors" as c;
 @use "../abstracts/shadows" as s;
 
-.platform-info {
+.platform-info,
+.check-prices {
   h1 {
     font-size: 2rem;
   }

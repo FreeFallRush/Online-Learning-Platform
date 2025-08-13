@@ -58,14 +58,18 @@ ul {
   list-style: none;
 }
 
-.platform-info h1 {
+.platform-info h1,
+.check-prices h1 {
   font-size: 2rem;
 }
 .platform-info h1,
-.platform-info h2 {
+.platform-info h2,
+.check-prices h1,
+.check-prices h2 {
   color: #3498db;
 }
-.platform-info p {
+.platform-info p,
+.check-prices p {
   font-size: 1.2rem;
   max-width: 600px;
   color: #333;
