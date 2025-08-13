@@ -53,3 +53,29 @@
     }
   }
 }
+
+.pricing {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: c.$color-pink-light;
+
+  h2 {
+    color: c.$color-white;
+    text-shadow: s.$text-shadow-default;
+    font-size: 1.8rem;
+  }
+
+  .pricing-cards {
+    @include m.flex-center-wrap;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 20px;
+
+      li {
+        padding: 5px 0;
+      }
+    }
+  }
+}

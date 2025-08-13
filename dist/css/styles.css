@@ -202,6 +202,31 @@ ul {
   color: #333;
 }
 
+.pricing {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fddbf0;
+}
+.pricing h2 {
+  color: #fff;
+  text-shadow: 2px 2px 5px rgb(71, 71, 71);
+  font-size: 1.8rem;
+}
+.pricing .pricing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.pricing .pricing-cards ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 20px;
+}
+.pricing .pricing-cards ul li {
+  padding: 5px 0;
+}
+
 nav {
   background-color: #3498db;
   padding: 10px;
