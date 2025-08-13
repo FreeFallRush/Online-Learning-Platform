@@ -1,6 +1,7 @@
 @use "../abstracts/variables" as v;
 @use "../abstracts/colors" as c;
 @use "../abstracts/mixins" as m;
+@use "../abstracts/shadows" as s;
 
 nav {
   background-color: c.$primary-color;
