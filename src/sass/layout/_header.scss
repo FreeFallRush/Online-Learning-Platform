@@ -1,3 +1,46 @@
 @use "../abstracts/variables" as v;
 @use "../abstracts/colors" as c;
 @use "../abstracts/mixins" as m;
+
+nav {
+  background-color: c.$primary-color;
+  padding: 10px;
+
+  @include m.flex-center-space-between(row);
+
+  position: relative;
+
+  .logo {
+    font-family: v.$font-logo;
+    font-size: 24px;
+    color: c.$color-white;
+    font-weight: bold;
+  }
+
+  .burger-menu {
+    display: none;
+    cursor: pointer;
+
+    img {
+      width: 30px;
+      height: auto;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+
+    &.active {
+      display: flex;
+    }
+
+    li {
+      a {
+        color: c.$color-white;
+        padding: 10px 15px;
+        display: block;
+        font-weight: v.$font-bold;
+      }
+    }
+  }
+}

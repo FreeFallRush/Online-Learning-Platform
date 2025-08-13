@@ -58,4 +58,40 @@ ul {
   list-style: none;
 }
 
+nav {
+  background-color: #3498db;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+nav .logo {
+  font-family: "Righteous", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+nav .burger-menu {
+  display: none;
+  cursor: pointer;
+}
+nav .burger-menu img {
+  width: 30px;
+  height: auto;
+}
+nav .nav-links {
+  display: flex;
+}
+nav .nav-links.active {
+  display: flex;
+}
+nav .nav-links li a {
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=styles.css.map */
