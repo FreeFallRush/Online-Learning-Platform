@@ -1,0 +1,415 @@
+[
+  {
+    "title": "Javascript Basics",
+    "instructor": "Sam Johnson",
+    "level": "Beginner",
+    "image": "../assets/images/gallery/javascript-basics.jpg",
+    "topics": ["JavaScript", "Programming"],
+    "description-brief": "JavaScript is one of the most popular programming languages in the world, and growing faster than any other programming language. As a developer, you can use JavaScript to build web and mobile apps, real-time networking apps, command-line tools, and games.",
+    "requirements": "No coding experience is required to take this course.",
+    "course-promises": [
+      "Understand the fundamental concepts in JavaScript",
+      "Learn and apply the best practices",
+      "Write solid JavaScript code",
+      "Learn problem-solving skills",
+      "Avoid common pitfalls and mistakes other JavaScript developers make"
+    ],
+    "course-includes": [
+      "6.5 hours on-demand video",
+      "2 articles",
+      "1 downloadable resource",
+      "Access on mobile and TV",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "JavaScript is a key tool for front-end, back-end, and full-stack developers.",
+      "The average annual salary for a JavaScript developer is $72,000.",
+      "Companies like Walmart, Netflix, and PayPal run big internal applications around JavaScript.",
+      "Having strong JavaScript knowledge will help you land your dream job."
+    ],
+    "course-target": [
+      "Aspiring developers - perhaps you learned a little bit of HTML and CSS and want to take your first JavaScript programming course. This course is an ideal starting point.",
+      "Experienced developers with no degree in computer science - there are a lot of self-taught web developers out there who cannot solve basic programming problems, because they never attended a college. Don't be one of those! This course teaches you the fundamental programming skills that every developer must know.",
+      "Anyone who wants to better understand JavaScript - chances are you've taken another course but didn't understand certain topics well. You can take this course to fill the gaps and strengthen your understanding of JavaScript. "
+    ]
+  },
+  {
+    "title": "Game Theory",
+    "instructor": "John Nash",
+    "level": "Intermediate",
+    "image": "../assets/images/gallery/game-theory.jpg",
+    "topics": ["Mathematics", "Strategy", "Decision-Making"],
+    "description-brief": "Game theory is the mathematical modeling of strategic interaction among rational (and irrational) agents. Beyond what we call `games' in common language, such as chess, poker, soccer, etc., it includes the modeling of conflict among nations, political campaigns, competition among firms, and trading behavior in markets such as the NYSE.",
+    "requirements": "Basic understanding of probability and algebra.",
+    "course-promises": [
+      "Understand Nash equilibrium and its applications",
+      "Analyze strategic decision-making",
+      "Apply game theory concepts to real-world scenarios"
+    ],
+    "course-includes": [
+      "5 hours on-demand video",
+      "3 articles",
+      "Downloadable resources",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Essential for economics, business, and political science",
+      "Used in AI development and strategic decision making"
+    ],
+    "course-target": [
+      "Economics and business students",
+      "Aspiring data scientists and analysts",
+      "Anyone interested in strategic thinking"
+    ]
+  },
+  {
+    "title": "3D Modeling",
+    "instructor": "Lisa Monroe",
+    "level": "Advanced",
+    "image": "../assets/images/gallery/3D-modeling.jpg",
+    "topics": ["3D Art", "Animation", "Design"],
+    "description-brief": "Take your 3D skills to the next dimension. This advanced course is designed for experienced artists and designers who want to master the craft of 3D modeling, texturing, rigging, and real-time rendering. You’ll work on complex projects—from character design and animation cycles to environment building and lighting in game engines.",
+    "requirements": "Familiarity with design software is recommended.",
+    "course-promises": [
+      "Learn Blender and Maya fundamentals",
+      "Create realistic 3D models",
+      "Understand texturing and lighting techniques"
+    ],
+    "course-includes": [
+      "8 hours on-demand video",
+      "4 assignments",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "3D modeling is a key skill in gaming and animation",
+      "High demand in industries like architecture and VFX"
+    ],
+    "course-target": [
+      "Aspiring game designers",
+      "3D artists looking to refine their skills",
+      "Engineers and architects needing 3D modeling skills"
+    ]
+  },
+  {
+    "title": "Arduino for Beginners",
+    "instructor": "Alex Carter",
+    "level": "Beginner",
+    "image": "../assets/images/gallery/arduino-for-beginners.jpg",
+    "topics": ["Electronics", "Programming", "IoT"],
+    "description-brief": "Get started with Arduino and build your own electronic projects.Curious about electronics but not sure where to start? This hands-on course is perfect for beginners who want to dive into the world of Arduino and physical computing—no prior experience required.",
+    "requirements": "No prior experience required.",
+    "course-promises": [
+      "Learn the basics of Arduino programming",
+      "Build simple circuits and projects",
+      "Understand sensors and actuators"
+    ],
+    "course-includes": [
+      "3 hours on-demand video",
+      "Project-based learning",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Arduino is widely used in robotics and IoT projects",
+      "Hands-on learning with real-world applications"
+    ],
+    "course-target": [
+      "Electronics enthusiasts",
+      "Students interested in hardware development",
+      "Makers and hobbyists"
+    ]
+  },
+  {
+    "title": "Cloud Computing",
+    "instructor": "Emily Richards",
+    "level": "Intermediate",
+    "image": "../assets/images/gallery/cloud-computing.jpg",
+    "topics": ["AWS", "Azure", "Networking"],
+    "description-brief": "Learn cloud computing principles and services like AWS and Azure.",
+    "requirements": "Basic IT knowledge is recommended.",
+    "course-promises": [
+      "Understand cloud architecture",
+      "Deploy applications on cloud platforms",
+      "Secure and manage cloud environments"
+    ],
+    "course-includes": [
+      "6 hours on-demand video",
+      "Hands-on projects",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Cloud computing is the future of IT infrastructure",
+      "Essential skill for software engineers and IT professionals"
+    ],
+    "course-target": [
+      "Aspiring cloud engineers",
+      "IT professionals",
+      "Businesses moving to the cloud"
+    ]
+  },
+  {
+    "title": "Cybersecurity Essentials",
+    "instructor": "David Norton",
+    "level": "Advanced",
+    "image": "../assets/images/gallery/cybersecurity.jpg",
+    "topics": ["Security", "Networking", "Ethical Hacking"],
+    "description-brief": "Protect systems and networks from cyber threats.",
+    "requirements": "Solid understanding of IT systems is recommended.",
+    "course-promises": [
+      "Learn threat detection and prevention",
+      "Understand ethical hacking principles",
+      "Secure networks and applications"
+    ],
+    "course-includes": [
+      "7 hours on-demand video",
+      "Real-world case studies",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Cybersecurity is a high-demand field",
+      "Essential skill for IT and security professionals"
+    ],
+    "course-target": [
+      "IT professionals",
+      "Ethical hackers",
+      "Anyone interested in online security"
+    ]
+  },
+  {
+    "title": "Digital Marketing",
+    "instructor": "Sophia Lee",
+    "level": "Advanced",
+    "image": "../assets/images/gallery/digital-marketing.jpg",
+    "topics": ["SEO", "Social Media", "Content Marketing"],
+    "description-brief": "Master digital marketing strategies to grow your business online.",
+    "requirements": "Solid marketing experience needed.",
+    "course-promises": [
+      "Understand SEO and online advertising",
+      "Create engaging social media campaigns",
+      "Measure and analyze marketing success"
+    ],
+    "course-includes": [
+      "5 hours on-demand video",
+      "Practical exercises",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Digital marketing is crucial for modern businesses",
+      "High demand for digital marketing professionals"
+    ],
+    "course-target": [
+      "Entrepreneurs",
+      "Marketing professionals",
+      "Intermediate experience"
+    ]
+  },
+  {
+    "title": "Creative Writing",
+    "instructor": "Anna Fitzgerald",
+    "level": "Beginner",
+    "image": "../assets/images/gallery/creative-writing.jpg",
+    "topics": ["Fiction", "Storytelling", "Writing Techniques"],
+    "description-brief": "Unlock your creativity and master storytelling techniques.",
+    "requirements": "Passion for writing.",
+    "course-promises": [
+      "Develop engaging story ideas",
+      "Enhance character development skills",
+      "Improve narrative flow and writing style"
+    ],
+    "course-includes": [
+      "7 hours on-demand video",
+      "Writing exercises",
+      "Peer feedback",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Learn from successful authors.",
+      "Develop a strong personal writing style.",
+      "Enhance your storytelling abilities."
+    ],
+    "course-target": [
+      "Aspiring writers",
+      "Content creators",
+      "Storytelling enthusiasts"
+    ]
+  },
+  {
+    "title": "Data Analytics",
+    "instructor": "Michael Chan",
+    "level": "Intermediate",
+    "image": "../assets/images/gallery/data-analytics.jpg",
+    "topics": ["Data Science", "Statistics", "Python"],
+    "description-brief": "Analyze data, build reports, and make data-driven decisions.",
+    "requirements": "Basic knowledge of Excel and statistics.",
+    "course-promises": [
+      "Master data visualization techniques",
+      "Use Python for data analysis",
+      "Apply statistical methods to real-world problems"
+    ],
+    "course-includes": [
+      "8 hours on-demand video",
+      "Case studies",
+      "Hands-on projects",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Data analytics is one of the fastest-growing fields.",
+      "High demand for skilled analysts.",
+      "Data-driven decision-making is key to business success."
+    ],
+    "course-target": [
+      "Business analysts",
+      "Data enthusiasts",
+      "Professionals looking to upskill"
+    ]
+  },
+  {
+    "title": "Front-End Development",
+    "instructor": "James Carter",
+    "level": "Beginner",
+    "image": "../assets/images/gallery/front-end.jpg",
+    "topics": ["HTML", "CSS", "JavaScript"],
+    "description-brief": "Master front-end development by learning modern web technologies and frameworks.",
+    "requirements": "Basic understanding of the internet and web browsing.",
+    "course-promises": [
+      "Build responsive websites",
+      "Understand CSS frameworks like Bootstrap",
+      "Use JavaScript to create interactive UI"
+    ],
+    "course-includes": [
+      "12 hours on-demand video",
+      "Hands-on coding exercises",
+      "Project-based learning",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Front-end development is in high demand.",
+      "Develop a strong portfolio to showcase your skills.",
+      "Work remotely or as a freelancer."
+    ],
+    "course-target": [
+      "Aspiring web developers",
+      "Designers looking to code",
+      "Entrepreneurs wanting to build websites"
+    ]
+  },
+  {
+    "title": "Machine Learning",
+    "instructor": "Dr. Alan Turing",
+    "level": "Intermediate",
+    "image": "../assets/images/gallery/machine-learning.jpg",
+    "topics": ["Artificial Intelligence", "Data Science", "Algorithms"],
+    "description-brief": "Dive into the world of Machine Learning and explore how algorithms learn from data.",
+    "requirements": "Basic understanding of Python and statistics.",
+    "course-promises": [
+      "Understand fundamental ML concepts",
+      "Build predictive models",
+      "Work with real-world datasets"
+    ],
+    "course-includes": [
+      "15 hours on-demand video",
+      "Hands-on coding exercises",
+      "Project-based learning",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Machine Learning is driving AI advancements.",
+      "High demand for ML engineers.",
+      "Opportunity to work in cutting-edge technology."
+    ],
+    "course-target": [
+      "Data Scientists",
+      "Software Developers",
+      "AI Enthusiasts"
+    ]
+  },
+  {
+    "title": "Video Editing",
+    "instructor": "Michael Scott",
+    "level": "Beginner",
+    "image": "../assets/images/gallery/video-editing.jpg",
+    "topics": ["Editing", "Post-Production", "Adobe Premiere"],
+    "description-brief": "Master video editing skills using industry-standard tools and create stunning content.",
+    "requirements": "No prior experience needed.",
+    "course-promises": [
+      "Learn to use Adobe Premiere and Final Cut Pro",
+      "Understand video storytelling techniques",
+      "Edit and export high-quality videos"
+    ],
+    "course-includes": [
+      "7 hours on-demand video",
+      "Hands-on projects",
+      "Editing templates",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Video editing is a valuable skill in digital media.",
+      "Enhance your creativity and storytelling.",
+      "Opportunities in filmmaking, marketing, and social media."
+    ],
+    "course-target": [
+      "Aspiring video editors",
+      "Content creators",
+      "Marketing professionals"
+    ]
+  },
+  {
+    "title": "Film Theory",
+    "instructor": "Dr. Laura Simmons",
+    "level": "Intermediate",
+    "image": "../assets/images/gallery/film-theory.jpg",
+    "topics": ["Cinema Studies", "Visual Storytelling", "Film Analysis"],
+    "description-brief": "Explore the history and theory behind cinema, learning how films convey meaning through visuals, sound, and narrative.",
+    "requirements": "Interest in film studies; no prior experience required.",
+    "course-promises": [
+      "Analyze film techniques and storytelling",
+      "Understand the cultural impact of cinema",
+      "Develop critical thinking skills for film interpretation"
+    ],
+    "course-includes": [
+      "6 hours on-demand video",
+      "Film case studies",
+      "Discussion forums",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "Gain a deeper appreciation for cinema.",
+      "Build analytical and interpretive skills.",
+      "Explore film as an art form and cultural product."
+    ],
+    "course-target": [
+      "Aspiring filmmakers",
+      "Cinema enthusiasts",
+      "Media students"
+    ]
+  },
+  {
+    "title": "UX Design Fundamentals",
+    "instructor": "Jessica Brown",
+    "level": "Beginner",
+    "image": "../assets/images/gallery/ux-design.jpg",
+    "topics": ["User Experience", "Design Principles", "Prototyping"],
+    "description-brief": "Gain a solid understanding of UX design and learn how to create user-friendly digital experiences.",
+    "requirements": "No prior experience needed.",
+    "course-promises": [
+      "Understand the fundamentals of UX design",
+      "Learn how to create wireframes and prototypes",
+      "Improve usability and accessibility in designs"
+    ],
+    "course-includes": [
+      "6 hours on-demand video",
+      "Hands-on design exercises",
+      "User research techniques",
+      "Certificate of completion"
+    ],
+    "course-motivations": [
+      "UX design is essential in web and app development.",
+      "Improve the user experience of digital products.",
+      "High demand for UX designers in the tech industry."
+    ],
+    "course-target": [
+      "Aspiring UX designers",
+      "Web and app developers",
+      "Product managers"
+    ]
+  }
+]
