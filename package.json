@@ -4,7 +4,9 @@
   "description": "Appendix Online Learning Platform - Capstone project for EPAM Front-End Training",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass src/sass:dist/css",
+    "watch:sass": "sass --watch src/sass:dist/css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/FreeFallRush/Online-Learning-Platform/issues"
   },
-  "homepage": "https://github.com/FreeFallRush/Online-Learning-Platform#readme"
+  "homepage": "https://github.com/FreeFallRush/Online-Learning-Platform#readme",
+  "dependencies": {
+    "sass": "^1.90.0"
+  }
 }
