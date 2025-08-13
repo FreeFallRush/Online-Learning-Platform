@@ -2,3 +2,99 @@
 @use "../abstracts/mixins" as m;
 @use "../abstracts/colors" as c;
 @use "../abstracts/shadows" as s;
+
+#slider {
+  .slider-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .slide {
+    min-width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    background-color: c.$primary-color-lighter;
+
+    .slide-image {
+      width: 70%;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .slide-text {
+      width: 30%;
+      padding: 18px;
+      color: c.$color-white;
+      text-align: left;
+
+      h2 {
+        color: c.$color-white;
+        text-shadow: s.$text-shadow-default;
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+      }
+
+      @include m.responsive(v.$breakpoint-lg) {
+        width: 50%;
+
+        h2 {
+          font-size: 0.8rem;
+        }
+
+        p {
+          font-size: 0.6rem;
+          line-height: 1.1;
+        }
+      }
+
+      @include m.responsive(v.$breakpoint-sm) {
+        width: 50%;
+        padding: 10px;
+
+        h2 {
+          font-size: 0.6rem;
+        }
+
+        p {
+          font-size: 0.4rem;
+          line-height: 1;
+        }
+      }
+    }
+
+    &.active {
+      display: flex;
+    }
+  }
+
+  .dots-container {
+    @include m.flex-center;
+
+    margin-top: 10px;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      margin: 5px;
+      background-color: c.$color-grey;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background: c.$primary-color;
+    }
+  }
+}
