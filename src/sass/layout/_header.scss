@@ -16,6 +16,7 @@ nav {
     font-size: 24px;
     color: c.$color-white;
     font-weight: bold;
+    text-shadow: s.$text-shadow-default;
   }
 
   .burger-menu {
@@ -26,21 +27,81 @@ nav {
       width: 30px;
       height: auto;
     }
+
+    @include m.responsive(v.$breakpoint-md) {
+      display: block;
+    }
   }
 
   .nav-links {
     display: flex;
+    gap: 15px;
+
+    @include m.responsive(v.$breakpoint-md) {
+      display: none;
+      flex-direction: column;
+      background: c.$primary-color;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      z-index: 1000;
+    }
 
     &.active {
       display: flex;
     }
 
     li {
+      position: relative;
+
       a {
+        text-decoration: none;
         color: c.$color-white;
         padding: 10px 15px;
         display: block;
         font-weight: v.$font-bold;
+        text-shadow: s.$text-shadow-default;
+
+        &:hover {
+          color: c.$color-pink-light;
+        }
+      }
+
+      &.dropdown {
+        .submenu {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: c.$primary-color-darker;
+          padding: 0;
+          width: 150px;
+          box-shadow: s.$box-shadow-default;
+          z-index: 1000;
+
+          li {
+            a {
+              padding: 10px;
+              display: block;
+              color: c.$color-white;
+
+              &:hover {
+                background: c.$primary-color-lighter;
+                color: c.$color-pink-light;
+              }
+            }
+          }
+        }
+
+        &:hover .submenu {
+          display: block;
+        }
+
+        .submenu.open {
+          display: block;
+        }
       }
     }
   }
