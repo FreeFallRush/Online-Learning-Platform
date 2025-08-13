@@ -34,4 +34,22 @@
       }
     }
   }
+
+  .map-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: c.$primary-color-darker;
+  }
+
+  #map-container {
+    iframe {
+      border-radius: 8px;
+    }
+  }
 }

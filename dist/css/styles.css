@@ -139,6 +139,19 @@ ul {
 .contact-page .contact-info ul li strong {
   color: #2e7aac;
 }
+.contact-page .map-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-page h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2e7aac;
+}
+.contact-page #map-container iframe {
+  border-radius: 8px;
+}
 
 nav {
   background-color: #3498db;
