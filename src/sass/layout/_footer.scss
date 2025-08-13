@@ -1,0 +1,13 @@
+@use "../abstracts/colors" as c;
+
+footer {
+  background-color: c.$color-grey-darker;
+  color: c.$color-white;
+  padding: 20px 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
