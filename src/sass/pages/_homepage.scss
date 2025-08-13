@@ -2,3 +2,20 @@
 @use "../abstracts/mixins" as m;
 @use "../abstracts/colors" as c;
 @use "../abstracts/shadows" as s;
+
+.platform-info {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h1,
+  h2 {
+    color: c.$primary-color;
+  }
+
+  p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    color: c.$color-grey-darker;
+  }
+}
