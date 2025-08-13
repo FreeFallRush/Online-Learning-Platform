@@ -159,6 +159,49 @@ ul {
   border-radius: 8px;
 }
 
+.audience {
+  padding: 4rem 2rem 1rem;
+  background-color: #e2e2e2;
+}
+.audience h1 {
+  text-align: center;
+  color: #2e7aac;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.audience .audience-section {
+  max-width: 1000px;
+  padding: 3rem 2rem;
+  margin: 0 auto 4rem;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border-left: 6px solid #007acc;
+}
+.audience .audience-section:nth-of-type(2) {
+  border-color: #28a745;
+}
+.audience .audience-section:nth-of-type(3) {
+  border-color: #ffc107;
+}
+.audience .audience-section h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #2e7aac;
+}
+.audience .audience-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.audience .audience-section ul {
+  padding-left: 1.5rem;
+}
+.audience .audience-section ul li {
+  list-style: disc;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
 nav {
   background-color: #3498db;
   padding: 10px;

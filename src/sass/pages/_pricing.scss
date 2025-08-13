@@ -1,0 +1,55 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+@use "../abstracts/colors" as c;
+@use "../abstracts/shadows" as s;
+
+.audience {
+  padding: 4rem 2rem 1rem;
+  background-color: c.$color-grey-light;
+
+  h1 {
+    text-align: center;
+    color: c.$primary-color-darker;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .audience-section {
+    max-width: 1000px;
+    padding: 3rem 2rem;
+    margin: 0 auto 4rem;
+    background-color: c.$color-white;
+    box-shadow: s.$box-shadow-secondary;
+    border-left: 6px solid #007acc;
+
+    &:nth-of-type(2) {
+      border-color: #28a745;
+    }
+
+    &:nth-of-type(3) {
+      border-color: #ffc107;
+    }
+
+    h3 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: c.$primary-color-darker;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+
+      li {
+        list-style: disc;
+        margin-bottom: 0.5rem;
+        color: c.$color-grey-darker;
+      }
+    }
+  }
+}
