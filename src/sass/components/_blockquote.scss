@@ -1,0 +1,32 @@
+@use "../abstracts/shadows" as s;
+
+blockquote {
+  border: solid 2px #757575;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  box-shadow: s.$box-shadow-default;
+
+  &::before {
+    content: "";
+    inset: -10% 0;
+    transform: rotate(-15deg) skew(5deg);
+  }
+
+  cite {
+    margin-top: 10px;
+    display: block;
+    font-style: italic;
+    text-align: right;
+
+    &::before {
+      content: "- ";
+    }
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}
