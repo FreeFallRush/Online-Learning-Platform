@@ -1,2 +1,26 @@
 @use "../abstracts/variables" as v;
 @use "../abstracts/colors" as c;
+
+body {
+  font-family: v.$font-primary;
+  color: c.$color-grey-darker;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+  font-family: v.$font-primary;
+  font-weight: v.$font-bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
