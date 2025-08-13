@@ -1,4 +1,4 @@
-import navbar from "./modules/navbar";
+import navbar from "./modules/navbar.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
   navbar();
