@@ -1,0 +1,21 @@
+@use "../abstracts/colors" as c;
+@use "../abstracts/shadows" as s;
+
+.card {
+  width: 300px;
+  background-color: c.$color-white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: s.$box-shadow-default;
+  border-radius: 10px;
+
+  h3 {
+    color: c.$primary-color;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

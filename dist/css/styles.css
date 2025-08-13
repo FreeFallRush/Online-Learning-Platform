@@ -337,4 +337,21 @@ blockquote > * {
   z-index: 1;
 }
 
+.card {
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.card h3 {
+  color: #3498db;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.card p {
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
