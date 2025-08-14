@@ -57,6 +57,10 @@ Quality control:
 
 ---
 
+- Moved index.html from src folder for live preview here
+
+---
+
 # 📘 Appendix – Online Learning Platform - Capstone project for EPAM Front-End Training
 
 Appendix is a responsive and interactive online learning platform designed as a front-end capstone project. It offers users the ability to browse, search, and filter courses with dynamic content using vanilla JavaScript with ES Modules, modular SCSS, and a component-based structure.
