@@ -1,6 +1,8 @@
 # Online-Learning-Platform
 
-This project was made according to EPAM requirments, as a capstone project after Front-End training:
+---> [view project](https://freefallrush.github.io/Online-Learning-Platform/) <----
+
+This project was made according to EPAM requirments, as a capstone project after Front-End training (Initially made on GitLab):
 
 🔹Goal:
 Your task is to create a web application using HTML, CSS, and JavaScript to practice your core web development skills. You are required to avoid using JavaScript frameworks (e.g., React, Angular) or CSS frameworks (e.g., Bootstrap). The task is quite complex and may take approximately 20 hours.
@@ -59,7 +61,7 @@ Quality control:
 
 Appendix is a responsive and interactive online learning platform designed as a front-end capstone project. It offers users the ability to browse, search, and filter courses with dynamic content using vanilla JavaScript with ES Modules, modular SCSS, and a component-based structure.
 
----
+## ---> [view project](https://freefallrush.github.io/Online-Learning-Platform/) <----
 
 ## 🚀 Features
 
