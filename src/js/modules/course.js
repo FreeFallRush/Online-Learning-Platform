@@ -10,16 +10,16 @@ export default class Course {
     this.instructor = instructor;
     this.level = level;
     this.image = image;
-    this.description = description || "No description available. ";
+    this.description = description || "No description available.";
   }
 
-  //Course card
+  // Course card
   renderCard() {
     const card = document.createElement("div");
     card.classList.add("course-card");
 
-    card.innerHtml = `
-         <img src="${this.image}" alt="${this.title}" width="300" height="300"/>
+    card.innerHTML = `
+          <img src="${this.image}" alt="${this.title}" width="300" height="300"/>
           <div class="course-info">
             <h2>${this.title}</h2>
             <p>${this.instructor}</p>
