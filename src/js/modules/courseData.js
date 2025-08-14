@@ -3,7 +3,7 @@ export async function fetchCourses() {
     const response = await fetch("data/coursesData.json");
     return await response.json();
   } catch (error) {
-    console.error("Failed to load courses data: ", error);
+    console.error("Failed to load courses data:", error);
     return [];
   }
 }
