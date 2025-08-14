@@ -1,6 +1,6 @@
 # Online-Learning-Platform
 
----> [view project](https://freefallrush.github.io/Online-Learning-Platform/) <----
+## ---> [view project](https://freefallrush.github.io/Online-Learning-Platform/) <----
 
 This project was made according to EPAM requirments, as a capstone project after Front-End training (Initially made on GitLab):
 
