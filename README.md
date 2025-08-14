@@ -44,7 +44,10 @@ o Ensure the menu block stretches across the available space (responsive design)
 
 • Ensure your web application combines HTML, CSS, and JavaScript smoothly for a functional and engaging user experience.
 • Test your application on multiple browsers and devices to ensure it works properly and looks good everywhere.
-• Write clean, well-organized code that is easy to maintain and reuse. 3. Project Compilation, Verification & Submission
+• Write clean, well-organized code that is easy to maintain and reuse.
+
+3. Project Compilation, Verification & Submission
+
 Once your project is complete, take the following steps to ensure quality and submit it for evaluation:
 Quality control:
 • Add linters: Set up ESLint for JavaScript and Stylelint for Sass/CSS to maintain consistent code quality and style.
