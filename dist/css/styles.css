@@ -281,6 +281,58 @@ ul {
   cursor: not-allowed;
 }
 
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-page {
+  padding: 3rem 2rem;
+  flex: 1;
+}
+.course-page .course-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+.course-page .course-container h1 {
+  color: #2e7aac;
+}
+.course-page .course-container p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+.course-page .course-container h3 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: #2e7aac;
+}
+.course-page .course-container ul {
+  margin: 0.5rem 0 1.5rem 1rem;
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.course-page .course-container ul li {
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+  .course-page {
+    padding: 2rem 1rem;
+  }
+  .course-page .course-container {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .course-page {
+    padding: 1.5rem 1rem;
+  }
+  .course-page .course-container {
+    padding: 0.75rem;
+  }
+}
+
 nav {
   background-color: #3498db;
   padding: 10px;

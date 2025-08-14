@@ -1,0 +1,61 @@
+@use "../abstracts/colors" as c;
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-page {
+  padding: 3rem 2rem;
+  flex: 1;
+
+  .course-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+
+    h1 {
+      color: c.$primary-color-darker;
+    }
+
+    p {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+
+    h3 {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+      color: c.$primary-color-darker;
+    }
+
+    ul {
+      margin: 0.5rem 0 1.5rem 1rem;
+      list-style: disc;
+      padding-left: 1.5rem;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  @include m.responsive(v.$breakpoint-md) {
+    padding: 2rem 1rem;
+
+    .course-container {
+      padding: 1rem;
+    }
+  }
+
+  @include m.responsive(v.$breakpoint-sm) {
+    padding: 1.5rem 1rem;
+
+    .course-container {
+      padding: 0.75rem;
+    }
+  }
+}
