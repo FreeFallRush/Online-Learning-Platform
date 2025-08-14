@@ -1,44 +1,47 @@
 # Online-Learning-Platform
 
-# 📘 Appendix – Online Learning Platform - Capstone project for EPAM Front-End Training
+This project was made according to EPAM requirments, as a capstone project after Front-End training:
 
-Introduction
-Goal:
+🔹Goal:
 Your task is to create a web application using HTML, CSS, and JavaScript to practice your core web development skills. You are required to avoid using JavaScript frameworks (e.g., React, Angular) or CSS frameworks (e.g., Bootstrap). The task is quite complex and may take approximately 20 hours.
 
-Online Learning Platform
+🔹Online Learning Platform:
 Create a web application for an online learning platform that allows users to browse and enroll in courses. The platform should include course information such as titles, instructors, difficulty levels, and topics, along with photos. Highlight user interactions by adding features like a course list, search functionality, and tools for exploring the course catalog. The landing page should feel visually organized with responsive layouts, a gallery for presenting course-related images, and intuitive navigation. Use interactive elements such as pagination, sorting, and filtering to help users explore course data efficiently.
 
 The stages you will go through as you complete the project - as well as the requirements for each stage – are described below. Carefully review all the theoretical information for each stage before starting the project.
 
 1. Set up the project
-   Not Started
+
    Start by creating a Git repository in autocode.git.epam.com. Click the "Start" button to clone a predefined template into your project space. Then, complete the following steps to set up your project:
-   • Clone a repository locally. Inside the cloned repository, initialize a new project using npm. Make sure the package.json file is created correctly. If you don't know how to initialize a project, you can follow the instructions provided here.
-   • In your project folder, create a .gitignore file and add node_modules to it to prevent this directory from being tracked in your Git repository.
-   • Add Sass into your project and implement a "compile" script to the package.json file to handle the compilation of all .scss files into .css files. If you’re unfamiliar with how to compile .scss files into .css, please refer to the guide.
-   • Add a description to a README.md file. It should contain clear instructions on how to set up and run your project, including prerequisites (e.g., npm install and Sass compilation process).
+   🔹 Clone a repository locally. Inside the cloned repository, initialize a new project using npm. Make sure the package.json file is created correctly. If you don't know how to initialize a project, you can follow the instructions provided here.
+   🔹 In your project folder, create a .gitignore file and add node_modules to it to prevent this directory from being tracked in your Git repository.
+   🔹 Add Sass into your project and implement a "compile" script to the package.json file to handle the compilation of all .scss files into .css files. If you’re unfamiliar with how to compile .scss files into .css, please refer to the guide.
+   🔹 Add a description to a README.md file. It should contain clear instructions on how to set up and run your project, including prerequisites (e.g., npm install and Sass compilation process).
+
 2. Web Application Development
-   Not Started
+
    The second stage involves building your web application. Follow the general requirements below to structure your HTML, CSS, and JavaScript code effectively. The application should use HTML, CSS, and JavaScript to create a dynamic and user-friendly experience.
 
-HTML & CSS part
-• Create semantic HTML markup using tags like <header>, <footer>, <article>, <nav>, <ul>, <li>, etc., for structured content organization.
+# HTML & CSS part:
+
+• Create semantic HTML markup using tags like header, footer, article, nav, ul, li, etc., for structured content organization.
 • Implement styles using Sass: utilize mixins, variables, and Sass inheritance to simplify and organize styles.
 • Apply Flexbox and/or CSS Grid layouts to arrange elements effectively.
 • The “Home” page should contain an image slider and a navigation menu:
-o Implement a submenu in the main menu using proper tags (<nav>, <ul>, <li>, <a>).
+o Implement a submenu in the main menu using proper tags (nav, ul, li, a).
 o Ensure the menu block stretches across the available space (responsive design). If necessary, menu can be displayed on different devices in different ways.
 • Ensure the web application is responsive: use media queries to adjust layout and styles so that the design works on all devices and avoids horizontal scrolling when resizing the browser window.
 
-JavaScript part
+# JavaScript part:
+
 • Implement a "Gallery" page that displays a set of cards featuring courses or properties (depending on the selected project option). Each card should display an image with 300 x 300 px dimensions along with all relevant information provided in the data (JSON) file. Handle varying original image sizes by ensuring proper scaling or cropping.
 • Add client-side pagination to display data page-by-page (maximum of 10 elements per page). Include navigation controls for users to access other pages. Additionally, implement asynchronous loading for elements that are initially hidden. These elements should load dynamically when the user clicks a “Show more” button.
 • Add functionality to enable sorting and filtering of data on designated pages.
 • Provide functionality to search information across the data provided.
 • Include a "Contacts" page with a map indicating a specific location. Use JavaScript to integrate a map service like Google Maps or OpenStreetMap.
 
-Final notes
+# Final notes:
+
 • Ensure your web application combines HTML, CSS, and JavaScript smoothly for a functional and engaging user experience.
 • Test your application on multiple browsers and devices to ensure it works properly and looks good everywhere.
 • Write clean, well-organized code that is easy to maintain and reuse. 3. Project Compilation, Verification & Submission
@@ -46,6 +49,10 @@ Once your project is complete, take the following steps to ensure quality and su
 Quality control:
 • Add linters: Set up ESLint for JavaScript and Stylelint for Sass/CSS to maintain consistent code quality and style.
 • Linting script: Add a "lint" script to your package.json to check both .js and .scss files for issues. Fix any problems detected.
+
+---
+
+# 📘 Appendix – Online Learning Platform - Capstone project for EPAM Front-End Training
 
 Appendix is a responsive and interactive online learning platform designed as a front-end capstone project. It offers users the ability to browse, search, and filter courses with dynamic content using vanilla JavaScript with ES Modules, modular SCSS, and a component-based structure.
 
